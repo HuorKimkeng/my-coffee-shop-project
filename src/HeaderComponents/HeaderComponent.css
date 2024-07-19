@@ -1,0 +1,18 @@
+.header {
+  height: 80px;
+  background-color: #63ffc7;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.menu {
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.css-a5rdam-MuiGrid-root {
+  margin-top: 0;
+}
