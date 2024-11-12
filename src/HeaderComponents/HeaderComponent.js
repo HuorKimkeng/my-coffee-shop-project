@@ -11,21 +11,21 @@ const HeaderComponent = () => {
     <>
       <Box sx={{ flexGrow: 1 }}>
         <Grid className="header" container spacing={1}>
-          <Grid xs={1.5}>
+          <Grid xs={1}>
             <Profile />
           </Grid>
-          <Grid className="menu" xs={7}>
+          <Grid className="menu" xs={9}>
             {pages.map((page, index) => (
               <Grid item key={index} sx={{ margin: "0 20px" }}>
                 {page}
               </Grid>
             ))}
           </Grid>
-          <Grid xs={3.5} container justifyContent="center" alignItems="center">
+          <Grid xs={2} container justifyContent="center" alignItems="center">
             <SearchComponent />
             <Box>
               <IconButton>
-                <Avatar src="/profile.png"></Avatar>
+                <Avatar src="/profile.png" className="right-profile"></Avatar>
               </IconButton>
             </Box>
           </Grid>

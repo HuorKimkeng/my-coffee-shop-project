@@ -19,20 +19,18 @@ import ScrollDailyDrink from "../src/DrinkScrollComponent/ScrollDailyDrink";
 export const test = () => {
   return (
     <div>
-      {/* <HeaderComponent /> */}
+      <HeaderComponent />
       <SliderComponent />
-      {/* <CardSliderComponent />
+      <CardSliderComponent />
       <DailyDrinkComponent />
-      <DailyDrinkCardOneComponent />
+      {/* <DailyDrinkCardOneComponent />
       <DailyDrinkCardTwoComponent />
       <DailyDrinkCardThreeComponent />
       <DailyDrinkCardFourComponent />
       <DailyDrinkCardFiveComponent />
-      <DailyDrinkCardSixComponent />
-      <DailyDrinkCardSevenComponent /> */}
-      {/* <ScrollDailyDrink />
-      {/* <Headers />
-      <Body /> */}
+      <DailyDrinkCardSixComponent /> */}
+      {/* <DailyDrinkCardSevenComponent /> */}
+      <ScrollDailyDrink />
     </div>
   );
 };

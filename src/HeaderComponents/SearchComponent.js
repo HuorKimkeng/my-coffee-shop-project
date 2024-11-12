@@ -11,7 +11,7 @@ const SearchComponent = () => {
       sx={{
         display: "flex",
         alignItems: "center",
-        width: 150,
+        width: 130,
         height: 30,
         border: "2px solid black",
         borderRadius: "15px",

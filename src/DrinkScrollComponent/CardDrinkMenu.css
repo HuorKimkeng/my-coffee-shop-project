@@ -1,3 +1,4 @@
+/* CardDrinkMenu */
 .card-drink-menu {
   width: 200px;
   height: 300px;
@@ -39,4 +40,50 @@
 
 .card-button {
   display: flex;
+}
+
+/* DailyDrinkComponent */
+.title {
+  width: 100%;
+  height: 60px;
+  font-size: 18px;
+  color: blue;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+/* ScrollDailyDrink */
+body {
+  /* background: #eee; */
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* StyleButton */
+.styled-button {
+  width: 90px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #9a9a9e ;
+  cursor: pointer;
 }

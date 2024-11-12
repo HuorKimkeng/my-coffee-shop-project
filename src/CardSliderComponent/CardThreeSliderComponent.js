@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
-import "./CardOneSliderComponent.css";
+import "./Card.css";
+// import "./CardOneSliderComponent.css";
 
 const CardThreeSliderComponent = () => {
   const cafeSlider = [

@@ -1,11 +1,11 @@
 import React from "react";
 import Card from "./Card";
-import "./CardOneSliderComponent.css";
+import "./Card.css";
 
 const CardOneSliderComponent = () => {
   const cafeSlider = [
     {
-      img: "/coffee1.jpg",
+      img: "/coffee7.jpg",
       title: "coffee1",
       price: "$3.40",
     },
@@ -19,7 +19,7 @@ const CardOneSliderComponent = () => {
       title: "coffee3",
       price: "$2.35",
     },
-  ];;
+  ];
 
   return (
     <div className="cardOne-container">

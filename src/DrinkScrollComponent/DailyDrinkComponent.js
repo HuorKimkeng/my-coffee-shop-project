@@ -1,5 +1,5 @@
 import React from "react";
-import "./DailyDrinkComponent.css";
+import "./CardDrinkMenu.css";
 
 const DailyDrinkComponent = () => {
   return <div className="title">Daily Drink</div>;

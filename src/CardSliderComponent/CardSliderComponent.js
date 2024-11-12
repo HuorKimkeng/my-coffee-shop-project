@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import "./CardSliderComponent.css";
+import "./Card.css";
 import { Pagination, Autoplay } from "swiper/modules";
 import CardOneSliderComponent from "./CardOneSliderComponent";
 import CardTwoSliderComponent from "./CardTwoSliderComponent";
