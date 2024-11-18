@@ -3,8 +3,14 @@ import "./HeaderComponent.css";
 import { Avatar, Box, Grid, IconButton } from "@mui/material";
 import Profile from "./Profile";
 import SearchComponent from "./SearchComponent";
+import Link from "next/link";
 
-const pages = ["Home", "Menu", "About", "Contact"];
+const pages = [
+  { name: "Home", path: "/home" },
+  { name: "Menu", path: "/menu" },
+  { name: "About", path: "/about" },
+  { name: "Contact", path: "/contact" },
+];
 
 const HeaderComponent = () => {
   return (
@@ -17,7 +23,9 @@ const HeaderComponent = () => {
           <Grid className="menu" xs={9}>
             {pages.map((page, index) => (
               <Grid item key={index} sx={{ margin: "0 20px" }}>
-                {page}
+                <Link href={page.path} style={{ textDecoration: "none", color: "inherit" }}>
+                  {page.name}
+                </Link>
               </Grid>
             ))}
           </Grid>

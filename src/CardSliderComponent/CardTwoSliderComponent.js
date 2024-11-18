@@ -1,33 +1,79 @@
 import React from "react";
-import Card from "./Card";
 import "./Card.css";
-// import "./CardOneSliderComponent.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSquarePlus } from '@fortawesome/free-regular-svg-icons';
 
 const CardTwoSliderComponent = () => {
-  const cafeSlider = [
-    {
-      img: "/coffee4.jpg",
-      title: "coffee4",
-      price: "$3.40",
-    },
-    {
-      img: "/coffee5.jpg",
-      title: "coffee5",
-      price: "$2.75",
-    },
-    {
-      img: "/coffee6.jpg",
-      title: "coffee6",
-      price: "$2.35",
-    },
-  ];
-
   return (
-    <div className="cardOne-container">
-      {cafeSlider.map((s, index) => {
-        const { img, title, price } = s;
-        return <Card key={index} img={img} title={title} price={price} />;
-      })}
+    <div className="cardOne-container"> 
+        <div className="cardOneSlider">
+          <div className="card-img">
+            <div className="circle-img">
+              <img src="/small-slider/espresso.jpg"></img>
+            </div>
+          </div>
+
+          <div className="title-price">
+            <div className="titleOfCoffee">
+              <p>Espresso</p>
+            </div>
+
+            <div className="priceandcard">
+              <div className="price">
+                <p>$3.4</p>
+              </div>
+              <div className="addtocard">
+                <FontAwesomeIcon icon={faSquarePlus} />
+              </div>
+            </div>         
+          </div>
+        </div>
+        
+        <div className="cardOneSlider">
+          <div className="card-img">
+            <div className="circle-img">
+              <img src="/small-slider/iced coffee.jpg"></img>
+            </div>
+          </div>
+
+          <div className="title-price">
+            <div className="titleOfCoffee">
+              <p>Iced Coffee</p>
+            </div>
+
+            <div className="priceandcard">
+              <div className="price">
+                <p>$3.4</p>
+              </div>
+              <div className="addtocard">
+                <FontAwesomeIcon icon={faSquarePlus} />
+              </div>
+            </div>  
+          </div>
+        </div>
+        
+        <div className="cardOneSlider">
+          <div className="card-img">
+            <div className="circle-img">
+              <img src="/small-slider/latte.jpg"></img>
+            </div>
+          </div>
+
+          <div className="title-price">
+            <div className="titleOfCoffee">
+              <p>Latte</p>
+            </div>
+
+            <div className="priceandcard">
+              <div className="price">
+                <p>$3.4</p>
+              </div>
+              <div className="addtocard">
+                <FontAwesomeIcon icon={faSquarePlus} />
+              </div>
+            </div>  
+          </div>
+        </div>
     </div>
   );
 };

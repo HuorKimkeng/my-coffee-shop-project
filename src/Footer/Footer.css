@@ -1,0 +1,288 @@
+.footer-container {
+   width: 100%;
+   height: 400px;
+   display: flex;
+   background-color: #63FFC7;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer-box-one {
+   width: 50%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.up-footer-box-one {
+   width: 90%;
+   height: 25%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo-img {
+   width: 20%;
+   height: 100%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.sm-logo {
+   width: 90px;
+   height: 90px;
+   border-radius: 50%;
+}
+
+.sm-logo img {
+   width: 100%;
+   height: 100%;
+}
+
+.text-name {
+   width: 80%;
+   height: 100%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.text-name p {
+   font-size: 25px;
+   color: black;
+}
+
+.down-footer-box-one {
+   width: 80%;
+   height: 75%;
+   display: flex;
+   justify-content: center;
+   align-items: start;
+}
+
+.down-footer-box-one p {
+   font-size: 20px;
+}
+
+.footer-box-two {
+   width: 20%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.follow-us {
+   width: 100%;
+   height: 25%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.follow-us p {
+   font-size: 25px;
+}
+
+.socail-medai {
+   width: 100%;
+   height: 75%;
+   /* background-color: yellow; */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.facebook {
+   width: 250px;
+   height: 50px;
+   /* background-color: #63FFC7; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.fb-icon {
+   width: 40%;
+   height: 100%;
+   /* background-color: red; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.fb-icon-img {
+   width: 40px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.fb-icon-img img {
+   width: 100%;
+   height: 100%;
+}
+
+.fb-text {
+   width: 60%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+}
+
+.fb-text p {
+   font-size: 15px;
+}
+
+/* .telegram {
+   width: 250px;
+   height: 50px;
+   background-color: #63FFC7;
+}
+
+.instagram {
+   width: 250px;
+   height: 50px;
+   background-color: #63FFC7;
+} */
+
+.footer-box-three {
+   width: 30%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.box-three-left {
+   width: 50%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.QRcode {
+   width: 200px;
+   height: 250px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #D7D6E9;
+   border-radius: 8px;
+}
+
+.QRcode-img {
+   width: 200px;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.QRcode-img img {
+   width: 90%;
+   height: 90%;
+}
+
+.qr-text {
+   width: 200px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.qr-text p {
+   font-size: 15px;
+   color: #B14848;
+}
+
+.box-three-right {
+   width: 50%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.sm-box-three-right {
+   width: 200px;
+   height: 130px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.sm-box-up {
+   width: 100%;
+   height: 55px;
+   background-color: #B4B3C3;
+   border-radius: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.sm-box-up-img {
+   width: 55px;
+   height: 100%;
+}
+
+.sm-box-up-img img {
+   width: 100%;
+   height: 100%;
+}
+
+.sm-box-up-text {
+   width: 145px;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.sm-box-up-text p {
+   font-size: 15px;
+}
+
+.sm-box-down {
+   width: 100%;
+   height: 55px;
+   background-color: #B4B3C3;
+   border-radius: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.sm-box-down-img {
+   width: 55px;
+   height: 100%;
+}
+
+.sm-box-down-img img {
+   width: 100%;
+   height: 100%;
+}
+
+.sm-box-down-text {
+   width: 145px;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.sm-box-down-text p {
+   font-size: 15px;
+}

@@ -1,6 +1,6 @@
 /* Header Component */
 .header {
-  height: 100px;
+  height: 80px;
   background-color: #63ffc7;
   display: flex;
   justify-content: center;
@@ -27,14 +27,14 @@
 }
 
 .right-profile {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   padding: 0;
 }
 
 /* Profile */
 .profile {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
 }

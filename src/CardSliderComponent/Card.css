@@ -41,39 +41,92 @@ span {
   width: 80%;
   height: 250px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
-/* CardSliderComponent */
-/* #app {
-  height: 100%;
-}
-html,
-body {
-  position: relative;
-  height: 100%;
+.cardOneSlider {
+  width: 30%;
+  height: 200px;
+  background-color: #b4b3c3;
+  margin-top: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
 }
 
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
+.card-img {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1.5px solid #63FFC7; */
+}
+
+.circle-img img {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #63ffc7;
+  border-radius: 50%;
+}
+
+.title-price {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titleOfCoffee {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleOfCoffee p {
+  font-size: 25px;
+  color: #b14848;
   margin: 0;
-  padding: 0;
-} */
+}
 
-/* CardThreeSliderComponent */
-/* .cardOne-container {
+.priceandcard {
+  width: 100%;
+  height: 100px;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;  
-} */
+  justify-content: space-between;
+  align-items: center;
+}
 
-/* CardTwoSliderComponent */
-/* .cardOne-container {
+.price {
+  width: 120px;
+  height: 80px;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-} */
+  justify-content: center;
+  align-items: center;
+}
+
+.addtocard {
+  width: 120px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #000;
+}
+

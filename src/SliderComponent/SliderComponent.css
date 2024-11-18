@@ -1,12 +1,3 @@
-#app {
-  height: 100%;
-}
-html,
-body {
-  position: relative;
-  height: 100%;
-}
-
 body {
   background: #eee;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -14,6 +5,8 @@ body {
   color: #000;
   margin: 0;
   padding: 0;
+  position: relative;
+  height: 100%;
 }
 
 .swiper {
@@ -24,7 +17,6 @@ body {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,10 +26,16 @@ body {
   display: block;
   border-radius: 0;
   width: 100%;
-  height: 100%;
+  height: 650px;
 }
 
 .swiper {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  color: #63ffc7;
+  font-weight: bolder;
 }

@@ -14,7 +14,7 @@ const SliderComponent = () => {
         spaceBetween={30}
         loop={true}
         autoplay={{
-          delay: 3000,
+          delay: 6000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -25,13 +25,13 @@ const SliderComponent = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="/slidshow_01.png" className="slide-show" />
+          <img src="/big-slider/slider01.png" className="slide-show" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/slidshow_02.png" className="slide-show" />
+          <img src="/big-slider/slider02.png" className="slide-show" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/slidshow_03.png" className="slide-show" />
+          <img src="/big-slider/slider03.png" className="slide-show" />
         </SwiperSlide>
       </Swiper>
     </>
