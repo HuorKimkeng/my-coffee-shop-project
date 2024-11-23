@@ -7,10 +7,6 @@ const PromotionHeader = () => {
             <div className="promotion-front-text">
                <p>Promotions</p>
             </div>
-            
-            <div className="promotion-back-text">
-               <p>See More</p>
-            </div>
          </div>
          
       </div>

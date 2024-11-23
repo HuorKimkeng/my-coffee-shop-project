@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react"; // Combine React and useState in one import
 import "./HeaderComponent.css";
-import { Avatar, Box, Grid, IconButton } from "@mui/material";
+import { Avatar, Box, Grid, IconButton, Modal } from "@mui/material";
 import Profile from "./Profile";
 import SearchComponent from "./SearchComponent";
 import Link from "next/link";
+import LoginForm from "../LoginForm/loginform";
+
 
 const pages = [
   { name: "Home", path: "/home" },
@@ -13,6 +15,11 @@ const pages = [
 ];
 
 const HeaderComponent = () => {
+  const [open, setOpen] = useState(false);
+
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
   return (
     <>
       <Box sx={{ flexGrow: 1 }}>
@@ -32,13 +39,20 @@ const HeaderComponent = () => {
           <Grid xs={2} container justifyContent="center" alignItems="center">
             <SearchComponent />
             <Box>
-              <IconButton>
+              <IconButton onClick={handleOpen}>
                 <Avatar src="/profile.png" className="right-profile"></Avatar>
               </IconButton>
             </Box>
           </Grid>
         </Grid>
       </Box>
+
+      {/* Modal for Login Form */}
+      <Modal open={open} onClose={handleClose} aria-labelledby="login-modal">
+        <div className="modal-container">
+          <LoginForm />
+        </div>
+      </Modal>
     </>
   );
 };

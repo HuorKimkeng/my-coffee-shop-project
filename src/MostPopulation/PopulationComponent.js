@@ -8,10 +8,6 @@ const PopulationComponent = () => {
             <div className="front-text">
                <p>Most Population</p>
             </div>
-            
-            <div className="back-text">
-               <p>See More</p>
-            </div>
          </div>
       </div>
    );

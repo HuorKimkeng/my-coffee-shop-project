@@ -25,13 +25,13 @@ const SliderComponent = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="/big-slider/slider01.png" className="slide-show" />
+          <img src="/big-slider/slide-01.png" className="slide-show" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/big-slider/slider02.png" className="slide-show" />
+          <img src="/big-slider/slide-02.png" className="slide-show" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/big-slider/slider03.png" className="slide-show" />
+          <img src="/big-slider/slide-03.png" className="slide-show" />
         </SwiperSlide>
       </Swiper>
     </>

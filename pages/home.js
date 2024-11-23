@@ -11,9 +11,9 @@ import CardPromotion from "../src/Promotion/CardPromotion";
 import Footer from "../src/Footer/Footer";
 import './globals.css';
 
-export const test = () => {
+export const Home = () => {
   return (
-    <div className="test">
+    <div>
       <HeaderComponent />
       <SliderComponent />
       <CardSliderComponent />
@@ -28,4 +28,4 @@ export const test = () => {
   );
 };
 
-export default test;
+export default Home;

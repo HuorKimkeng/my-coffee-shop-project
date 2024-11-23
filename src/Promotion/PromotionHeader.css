@@ -29,21 +29,6 @@
    margin: 0;
 }
 
-.promotion-back-text {
-   width: 200px;
-   height: 100%;
-   display: flex;
-   justify-content: flex-end;
-   align-items: center;
-}
-
-.promotion-back-text p {
-   font-weight: bold;
-   font-size: 15px;
-   cursor: pointer;
-   margin: 0;
-}
-
 .card-daily-drink {
    width: 100%;
    height: 500px;
