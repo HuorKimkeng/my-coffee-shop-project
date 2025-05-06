@@ -9,7 +9,7 @@ import CardPopulation from "../src/MostPopulation/CardPopulation";
 import PromotionHeader from "../src/Promotion/PromotionHeader";
 import CardPromotion from "../src/Promotion/CardPromotion";
 import Footer from "../src/Footer/Footer";
-import './globals.css';
+import "./globals.css";
 
 export const Home = () => {
   return (

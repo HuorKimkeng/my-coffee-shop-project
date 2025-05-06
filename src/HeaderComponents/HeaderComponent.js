@@ -4,8 +4,7 @@ import { Avatar, Box, Grid, IconButton, Modal } from "@mui/material";
 import Profile from "./Profile";
 import SearchComponent from "./SearchComponent";
 import Link from "next/link";
-import LoginForm from "../LoginForm/loginform";
-
+import LoginForm from "../LoginForms/LoginForm";
 
 const pages = [
   { name: "Home", path: "/home" },
